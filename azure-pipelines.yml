@@ -1,8 +1,8 @@
 trigger:
-  -main
+  -  main
 pool:
-  -vmImage:'ubuntu latest'
+  vmImage: 'ubuntu-latest'
 steps:
   -script: echo "Hello SP!"
-     displayName: 'Print Hellow message'
+     displayName: 'Print Hello message'
     
