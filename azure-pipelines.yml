@@ -4,5 +4,5 @@ pool:
   vmImage: 'ubuntu-latest'
 steps:
   -script: echo "Hello SP!"
-     displayName: 'Print Hello message'
+   displayName: 'Print Hello message'
     
